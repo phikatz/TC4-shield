@@ -4,7 +4,7 @@
 #ifndef MCP23017_h
 #define MCP23017_h
 
-#include <WProgram.h>
+#include <Arduino.h>
 
 // control register bits
 #define BANK (uint8_t)B10000000 // bank = 1, 8 bit operation
